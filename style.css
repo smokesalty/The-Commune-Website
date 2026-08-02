@@ -1,0 +1,963 @@
+/* Basic Text Styling */
+h1{
+  font-family: "Six Caps", sans-serif;
+  font-weight: 400;
+  font-size: 12vw;
+  font-style: normal;
+}
+
+h2{
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+}
+
+h3{
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 380;
+  font-size: 2.5vw;
+
+}
+
+h4{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5vw;
+
+}
+
+h5{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2vw;
+
+}
+
+p{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1vw;
+
+}
+
+/* Navigation Bar */
+.navbar{
+    font-family: "Raleway", sans-serif;
+    opacity: 100%;
+    --bs-navbar-color: rgba(255, 255, 255, 1);
+    font-size: 1.2vw;
+    margin-bottom: -4%;
+    --bs-border-width: 2.5px;
+}
+
+.nav-link {
+    display: block;
+    padding: 1%;
+    font-family: 'Raleway';
+    text-align: left;
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s 
+ease-in-out, background-color .15s 
+ease-in-out, border-color .15s 
+ease-in-out;
+}
+
+
+
+/* Basic Styling */
+.light-text
+{
+    color: white;
+}
+
+.dark-text
+{
+    color: black;
+}
+
+.dark-bg-color
+{
+    background-color: #111010;
+}
+
+.gutter
+{
+    padding: 2%;
+}
+
+.dark-plain-header
+{
+    background-color: #1e1d1d;
+}
+
+/* HOME PAGE------------------------------------------------------------------------------------------------------------- */
+
+/* Header */
+.home-header-image{
+    background-image: url(Images/Home/the-commune-home-header.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    
+}
+
+.home-header{
+    padding-top: 12%;
+    padding-bottom: 20%;
+    padding-left: 8%;
+}
+
+.home-header h1{
+    color: #DC480D;
+    font-size: 18vw;
+    text-align: right;
+    text-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    padding-right: 5%;
+}
+
+.home-header h2{
+    text-align: right;
+    padding-right: 5%;
+    margin-top: -5%;
+}
+
+.home-header h3{
+    font-family: "Raleway", sans-serif;
+    padding-top: 20%;
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+
+.red-button-1
+{
+    padding: 3%;
+    margin-top: 5%;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #B23F19;
+    --bs-btn-border-color: #B23F19;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #852a0c;
+    --bs-btn-hover-border-color: #852a0c;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #852a0c;
+    --bs-btn-active-border-color: #c5471d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #B23F19;
+    --bs-btn-disabled-border-color: #B23F19;
+}
+
+
+/* Page Selection */
+.page-select-home{
+    background-color: #111010;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.page-select-home img{
+    margin-bottom: 5%;
+}
+
+/* More Info */
+
+.more-info-home{
+    background-image: url(Images/Home/garden-hill-background.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.more-info-home h3{
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 380;
+  font-size: 2.8vw; 
+  margin-right: 10%;
+}
+
+.white-button1{
+    width: 90%;
+    font-size: 1.6vw;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    
+}
+
+/* Newsletter Subscribe */
+.subscribe-home{
+    background-image: url(Images/Home/chapter-five-background.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.newsletter{
+    background-color: white;
+    padding: 3%;
+    border-style: solid;
+}
+
+
+/* FOOTER */
+.footer{
+    padding: 1%;
+}
+
+.footer-logo{
+    width: 14vw;
+   
+    margin-top: 2%;
+}
+
+.credits-text{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.footer p{
+    margin-bottom: 1%;
+}
+
+.socials img
+{
+    padding: 2%;
+    max-width: 50px;
+}
+
+
+
+
+
+
+/* WEBPAGE: CHAPTER ARCHIVE--------------------------------------------------------------------------------------------------------- */
+
+.archive-background
+{
+    background-image: url(Images/Chapter-Archive/header-chapter-1.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+    
+}
+.archive-cards{
+    padding:1%;
+    margin-top: 3%;
+    margin-right: 1%;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    
+}
+
+
+
+.archive-cards h4{
+    color: #B23F19;
+    
+}
+.archive-read-button{
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.detail-text
+{
+    font-size: .8vw;
+    color: #7c7c7c;
+}
+
+.archive-cards img{
+    justify-content: left;
+}
+
+
+/* WEBPAGE:COMIC PAGE READING ------------------------------------------------------------------------------------------------- */ 
+.reading-header
+{
+    background-color: #1e1d1d;
+}
+
+
+.reading-header h1{
+    font-size: 10vw;
+    text-shadow: 0px 2px 10px rgba(0,0,0,0.5); 
+    margin-top: 3%;
+
+}
+
+.red-text-button{
+    text-decoration: none;
+    color: #B23F19;
+    margin-bottom: 2%;
+    
+}
+
+.reading-background
+{
+    background-color: #111010;
+}
+
+.behind-pages
+{
+    background-color: black;
+}
+
+.comic-page-reading{
+    width: 80%;   
+}
+
+.box-shadow
+{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5); 
+}
+
+.page-spacing{
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.next-and-previous-button
+{
+    width: 100%;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+    margin-bottom: -5%;
+    font-size: 1vw;
+    
+
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #B23F19;
+    --bs-btn-border-color: #B23F19;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #852a0c;
+    --bs-btn-hover-border-color: #852a0c;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #852a0c;
+    --bs-btn-active-border-color: #c5471d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #B23F19;
+    --bs-btn-disabled-border-color: #B23F19;
+}
+
+.done-reading-chapter{
+    padding-bottom: 5%;
+}
+
+.header-padding{
+    padding:auto;
+}
+
+
+/* CHAPTER HEADERS */
+
+.chapter-1-header{
+    background-image: url(Images/Chapter-Archive/header-chapter-1.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+
+.chapter-2-header{
+    background-image: url(Images/Chapter-Archive/header-chapter-2.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.chapter-3-header{
+    background-image: url(Images/Chapter-Archive/header-chapter-3.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.chapter-4-header{
+    background-image: url(Images/Chapter-Archive/header-chapter-4.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.chapter-5-header{
+    background-image: url(Images/Chapter-Archive/header-chapter-5.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.chapter-6-header{
+    background-image: url(Images/Chapter-Archive/header-chapter-6.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.chapter-7-header{
+    background-image: url(Images/Chapter-Archive/header-chapter-7.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.chapter-8-header{
+    background-image: url(Images/Chapter-Archive/header-chapter-8.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+
+/* WEBPAGE: FREQUENTLY ASKED */
+
+.freqently-asked-accordion
+{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #dc8760;
+    padding-bottom: 1%;
+}
+
+.accordion-button.collapsed{
+    padding-bottom: 1%;
+}
+
+#faq-accordion{
+    --bs-accordion-border-color: none;
+    --bs-accordion-btn-bg: #a8a4a3;
+    --bs-accordion-bg: rgba(255, 255, 255, 0.773);
+}
+
+.accordion-body{
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 3%;
+}
+
+.question-email
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+/* WEBPAGE: WIKI */
+
+.wiki h1{
+    font-size: 8vw;
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+
+.wiki-table
+{
+    max-width: 300px;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-left: 4%;
+    padding: 1%;
+    background-color: #fff;
+    float: right;
+
+}
+
+.wiki-table h3{
+    font-size: 2vw;
+}
+
+.wiki-table h4{
+    font-size: 1.2vw;
+    font-weight: 700;
+    padding-left: 5%;
+    padding-right: 4%;
+    margin-bottom: 0%;
+}
+
+.wiki-table p{
+    font-size: 1vw;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-right: 4%;
+   
+}
+
+.character-bios
+{
+    margin: 4%;
+    margin-top: 6%;
+}
+
+
+
+.info-content-box{
+    background-color: rgba(184, 176, 176, 0.279);
+    padding: 5%;
+    border-width: 2px;
+    border-color: white;
+    margin-bottom: 10%;
+    text-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    
+    
+    
+    
+    
+}
+
+.red-card-subheadings{
+    background-color: #dc8760;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    padding: 5%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+
+.purple-card-subheadings{
+    background-color: #9d66c0;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    padding: 5%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.purple-text-button{
+    text-decoration: none;
+    color: #9d66c0;
+    margin-bottom: 2%;
+    
+}
+
+.wiki-home{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.wiki-img-buttons
+{
+    max-width: 120px;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    
+}
+
+
+@media(max-width: 992px){
+
+h2{
+    font-size: 3vw;
+}
+
+h4{
+  font-size: 2.1vw;
+}
+
+p{
+    font-size: 2vw;
+}
+
+.home-header h1{
+color: #DC480D;
+text-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+padding-right: 5%;
+font-size:15vw;
+margin-top: 20%;
+}
+
+.white-button1{
+    width: 100%;
+    font-size: 1.6vw;
+    margin-bottom: 3%;
+}
+
+.home-header h3{
+    padding-top: 50%;
+    font-size: 2.2vw;
+}
+
+.header-padding{
+    padding-left:4%;
+    padding-right: 4%;
+}
+
+.archive-cards img{
+    object-fit: cover;
+    height: 100%;
+}
+
+.footer-logo {
+    margin-top: 10%;
+    width: 180px;
+}
+
+.socials img
+{
+    padding: 2%;
+    max-width: 40px;
+}
+
+
+}
+
+@media(max-width: 770px){
+
+.home-header h3{
+    padding-top: 0%;
+    font-size: 2.2vw;
+    margin-left: 20%;
+}
+
+.white-button1{
+    width: 30%;
+    font-size: 1.6vw;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding-top: 3%;
+    
+}
+
+.next-and-previous-button
+{
+    width: 40%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    margin-bottom: -3%;
+    font-size: 2vw;
+}
+
+.wiki-table {
+    max-width: 300px;
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 20%;
+    padding: 1%;
+    background-color: #fff;
+    float: none;
+    
+
+    max-width: 50%;
+}
+
+.detail-text
+{
+    font-size: 1.5vw;
+    color: #7c7c7c;
+}
+
+
+
+}
+
+
+
+
+
+.info-content-box {
+    background-color: rgba(184, 176, 176, 0.279);
+    padding: 5%;
+    border-width: 2px;
+    border-color: white;
+    margin-bottom: 10%;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+
+    max-width: 300px;
+
+}
+
+/* MOBILE BREAKPOINTS------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 600px){
+
+/* Basic Text  Styling */
+h1{
+  
+  font-size: 28vw;
+
+}
+
+h2{
+  font-weight: 380;
+  font-size: 6vw;
+}
+
+h3{
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 8vw;
+
+
+}
+
+h4{
+  font-family: "Raleway", sans-serif;
+  font-size: 4vw;
+}
+
+h5{
+    font-size: 4vw;
+}
+
+p{
+  font-family: "Raleway", sans-serif;
+  font-size: 3vw;
+
+}
+
+.nav-link
+{
+    font-size: 4vw;
+}
+
+/* FOOTER ----------------------------------*/
+.footer{
+    padding: 1%;
+}
+
+.footer-logo{
+    display: none;
+}
+
+.credits-text{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.footer p{
+    margin-bottom: 10%;
+}
+
+.socials img
+{
+    max-width: 30px;
+    padding: 4%;
+}
+
+
+
+
+.home-header {
+    padding-top: 12%;
+    padding-bottom: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.home-header h1{
+    color: #DC480D;
+    text-align: center;
+    text-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    padding-right: 5%;
+    font-size: 28vw;
+    margin-top: 20%;
+}
+
+.home-header h3{
+    font-size: 4vw;
+    padding-top: 5%;
+    margin-left: 0%;
+}
+
+.red-button-1{
+    margin-bottom: 10%;
+}
+
+.page-select-home img {
+    margin-bottom: 5%;
+    max-width: 60%;
+    margin-top: 5%;
+}
+
+.white-button1{
+    width: 60%;
+    font-size: 1.6vw;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    
+}
+
+.more-info-home h3{
+  font-weight: 380;
+  font-size: 6vw; 
+  margin-right: 10%;
+}
+
+
+.newsletter{
+    background-color: white;
+    padding: 8%;
+    border-style: solid;
+}
+
+.next-and-previous-button
+{
+    width: 50%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    margin-bottom: -5%;
+    font-size: 3vw;
+}
+
+.red-text-button {
+    text-decoration: none;
+    color: #B23F19;
+    margin-bottom: 5%;
+}
+
+/* MOBILE CHAPTER ARCHIVE ---------------------------------------------*/
+.reading-header h1 {
+    font-size: 12vw;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 3%;
+}
+
+
+.archive-cards h4{
+    color: #B23F19;
+    
+}
+.archive-read-button{
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.detail-text{
+    font-size: 2vw;
+}
+
+.archive-cards{
+    padding:1%;
+    padding-bottom: 0%;
+    margin-top: 10%;
+    margin-right: 1%;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    
+}
+
+
+/* MOBILE COMIC PAGE READING -------------*/
+
+.page-spacing {
+    --bs-gutter-x: 0px;
+    --bs-gutter-y: 5%;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.comic-page-reading
+{
+    width: 100%;
+}
+
+
+
+.header-padding{
+    padding-left:8%;
+    padding-right: 8%;
+}
+
+
+/* WIKI PAGES */
+
+.wiki h1{
+    font-size: 16vw;
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+
+.wiki-table
+{
+    max-width: 300px;
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 8%;
+    padding: 1%;
+    background-color: #fff;
+    float: none;
+
+}
+
+.character-bios h2
+{
+    font-size: 10vw;
+}
+
+
+
+.character-bios p{
+    font-size: 4vw;
+}
+
+.wiki-table h3{
+    font-size: 6vw;
+}
+
+.wiki-table h4{
+    font-size: 4vw;
+    font-weight: 700;
+    padding-left: 5%;
+    padding-right: 4%;
+    margin-bottom: 0%;
+}
+
+.wiki-table p{
+    font-size: 4vw;
+    font-weight: 450;
+    padding-left: 6%;
+    padding-right: 4%;
+   
+}
+
+
+
+.character-bios h4{
+    font-size: 5vw;
+}
+
+.info-content-box {
+    background-color: rgba(184, 176, 176, 0.279);
+    padding: 5%;
+   
+    border-color: white;
+    margin-bottom: 10%;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 0%;
+
+    max-width: 300px;
+
+}
+
+
+}
+
+
